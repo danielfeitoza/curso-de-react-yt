@@ -21,9 +21,9 @@ function TaskPage() {
                     </button>
                     <Title>Detalhes da Tarefa</Title>
                 </div>
-                <div className="p-4 bg-slate-200 rounded-md shadow">
-                    <h2 className="text-left text-slate-500 text-2xl font-bold ">{title}</h2>
-                    <p className="text-left text-slate-500">{description}</p>
+                <div className="p-4 bg-slate-200 rounded-md shadow space-y-4">
+                    <h2 className="text-left text-slate-500 text-2xl font-bold break-words [overflow-wrap:anywhere]">{title}</h2>
+                    <p className="text-left text-slate-500 break-words [overflow-wrap:anywhere]">{description}</p>
                 </div>
             </div>
 
